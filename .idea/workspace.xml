@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Create project with initial setup">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedList/Driver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedList/LinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedList/Node.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/twoPointers/removeNthNodeFromEndOfList/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/twoPointers/removeNthNodeFromEndOfList/SolutionTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Solve problems from LeetCode">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/twoPointers/sumOfThreeValues/Solution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/twoPointers/sumOfThreeValues/Solution.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/twoPointers/sumOfThreeValues/SolutionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/twoPointers/sumOfThreeValues/SolutionTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/twoPointers/validPalindrome/SolutionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/twoPointers/validPalindrome/SolutionTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +45,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -196,10 +189,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'grokking-dsa.test'" />
         <item itemvalue="Gradle.SolutionTest" />
         <item itemvalue="Gradle.SolutionTest.removeNthFromEnd() should remove the first value from the list" />
         <item itemvalue="Kotlin.DriverKt" />
-        <item itemvalue="Gradle.Tests in 'grokking-dsa.test'" />
         <item itemvalue="Gradle.SolutionTest.removeNthFromEnd should remove nth value from end of list" />
       </list>
     </recent_temporary>
@@ -221,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695799360075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Solve problems from LeetCode">
+      <option name="closed" value="true" />
+      <created>1695817763920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695817763920</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -242,7 +243,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT_PROFILE" value="Project Default" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Create project with initial setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create project with initial setup" />
+    <MESSAGE value="Solve problems from LeetCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve problems from LeetCode" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
