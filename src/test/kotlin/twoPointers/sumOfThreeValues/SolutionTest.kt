@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test
 
 class SolutionTest {
 
+    // SUT: System Under Test
     private val sut = Solution()
 
     @Test

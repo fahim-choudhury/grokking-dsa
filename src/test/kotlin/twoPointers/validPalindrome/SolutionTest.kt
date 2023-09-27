@@ -6,6 +6,7 @@ import org.junit.jupiter.params.provider.MethodSource
 
 class SolutionTest {
 
+    // SUT: System Under Test
     private val sut = Solution()
 
     @ParameterizedTest

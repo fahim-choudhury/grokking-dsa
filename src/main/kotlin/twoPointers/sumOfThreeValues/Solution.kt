@@ -4,9 +4,10 @@ package twoPointers.sumOfThreeValues
  * LeetCode: 15. 3Sum
  * https://leetcode.com/problems/3sum/description/
  */
+
 class Solution {
     fun threeSum(nums: IntArray): List<List<Int>> {
-        // Solution set must not contain duplicates, hence using Set data structure
+        // twoPointers.removeNthNodeFromEndOfList.Solution set must not contain duplicates, hence using Set data structure
         val result = mutableSetOf<List<Int>>()
 
         // Sort the array in ascending order
@@ -25,7 +26,7 @@ class Solution {
                     val triplet = listOf(currentElement, nums[leftPointer], nums[rightPointer])
                     result.add(triplet)
 
-                    // Even if find the triplet, it can be possible that there are other two values
+                    // Even if we find the triplet, it can be possible that there are other two values
                     // summed up to the current element that match up with the target, 0.
                     // We need to move the leftPointer towards the right by one step
                     leftPointer += 1
