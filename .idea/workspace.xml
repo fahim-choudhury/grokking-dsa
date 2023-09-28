@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Solve problems from LeetCode">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Add README">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/twoPointers/sortColors/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/twoPointers/sortColors/SolutionTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,10 +70,11 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/fahim/IdeaProjects/grokking-dsa&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -80,12 +82,37 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="twoPointers.sortColors" />
       <recent name="twoPointers.removeNthNodeFromEndOfList" />
       <recent name="twoPointers.sumOfThreeValues" />
       <recent name="twoPointers.validPalindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest">
+  <component name="RunManager" selected="Gradle.SolutionTest.sortColors">
+    <configuration name="SolutionTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;twoPointers.sortColors.SolutionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,30 +127,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;twoPointers.removeNthNodeFromEndOfList.SolutionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest.removeNthFromEnd should remove nth value from end of list" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;twoPointers.removeNthNodeFromEndOfList.SolutionTest.removeNthFromEnd should remove nth value from end of list&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,6 +161,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="SolutionTest.sortColors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;twoPointers.sortColors.SolutionTest.sortColors&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="Tests in 'grokking-dsa.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,20 +207,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructures.linkedList.DriverKt" />
-      <module name="grokking-dsa.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SolutionTest.sortColors" />
+        <item itemvalue="Gradle.SolutionTest (1)" />
         <item itemvalue="Gradle.Tests in 'grokking-dsa.test'" />
         <item itemvalue="Gradle.SolutionTest" />
         <item itemvalue="Gradle.SolutionTest.removeNthFromEnd() should remove the first value from the list" />
-        <item itemvalue="Kotlin.DriverKt" />
-        <item itemvalue="Gradle.SolutionTest.removeNthFromEnd should remove nth value from end of list" />
       </list>
     </recent_temporary>
   </component>
@@ -222,8 +242,19 @@
       <option name="project" value="LOCAL" />
       <updated>1695817763920</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add README">
+      <option name="closed" value="true" />
+      <created>1695818951154</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695818951154</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:podman" />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -244,9 +275,14 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Create project with initial setup" />
     <MESSAGE value="Solve problems from LeetCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve problems from LeetCode" />
+    <MESSAGE value="Add README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add README" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
