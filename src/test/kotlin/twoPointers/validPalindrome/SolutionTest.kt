@@ -7,18 +7,18 @@ import org.junit.jupiter.params.provider.MethodSource
 class SolutionTest {
 
     // SUT: System Under Test
-    private val sut = Solution()
+    private val solution = Solution()
 
     @ParameterizedTest
     @MethodSource("validPalindromeData")
     fun `isPalindrome() returns true for valid palindromes`(input: String) {
-        assertEquals(true, sut.isPalindrome(input))
+        assertEquals(true, solution.isPalindrome(input))
     }
 
     @ParameterizedTest
     @MethodSource("invalidPalindromeData")
     fun `isPalindrome() returns false for invalid palindromes`(input: String) {
-        assertEquals(false, sut.isPalindrome(input))
+        assertEquals(false, solution.isPalindrome(input))
     }
 
     companion object {

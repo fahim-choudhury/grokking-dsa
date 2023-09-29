@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 class SolutionTest {
 
     // SUT: System Under Test
-    private val sut = Solution()
+    private val solution = Solution()
 
     @Test
     fun `threeSum() should return a list of triplets`() {
@@ -16,7 +16,7 @@ class SolutionTest {
         val expected1 = listOf(listOf(-1, -1, 2), listOf(-1, 0, 1))
         val expected2 = listOf(listOf(0, 0, 0))
 
-        assertEquals(expected1, sut.threeSum(input1))
-        assertEquals(expected2, sut.threeSum(input2))
+        assertEquals(expected1, solution.threeSum(input1))
+        assertEquals(expected2, solution.threeSum(input2))
     }
 }

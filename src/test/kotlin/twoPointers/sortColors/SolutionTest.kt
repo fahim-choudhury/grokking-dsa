@@ -6,14 +6,14 @@ import org.junit.jupiter.params.provider.MethodSource
 
 class SolutionTest {
 
-    private val sut = Solution()
+    private val solution = Solution()
 
     @ParameterizedTest
     @MethodSource("inputArrays")
     fun sortColors(inputArray: IntArray) {
         val expected = inputArray.sortedArray()
 
-        sut.sortColors(inputArray)
+        solution.sortColors(inputArray)
 
         assertEquals(true, inputArray.contentEquals(expected))
     }

@@ -7,7 +7,7 @@ import kotlin.test.assertEquals
 class SolutionTest {
 
     // SUT: System Under Test
-    private val sut = Solution()
+    private val solution = Solution()
 
     @Test
     fun `removeNthFromEnd() should remove nth value from end of list`() {
@@ -20,7 +20,7 @@ class SolutionTest {
             push(1)
         }
         val n = 2
-        val head = sut.removeNthNodeFromEnd(input.head, n)
+        val head = solution.removeNthNodeFromEnd(input.head, n)
         val expected = LinkedList<Int>().apply {
             push(5)
             push(3)
@@ -41,7 +41,7 @@ class SolutionTest {
             push(1)
         }
         val n = 5
-        val head = sut.removeNthNodeFromEnd(input.head, n)
+        val head = solution.removeNthNodeFromEnd(input.head, n)
         val expected = LinkedList<Int>().apply {
             push(5)
             push(4)
@@ -57,7 +57,7 @@ class SolutionTest {
             push(1)
         }
         val expected = LinkedList<Int>()
-        val head = sut.removeNthNodeFromEnd(input.head, 1)
+        val head = solution.removeNthNodeFromEnd(input.head, 1)
         assertEquals(expected.head.toString(), head.toString())
     }
 
@@ -65,7 +65,7 @@ class SolutionTest {
     fun `removeNthFromEnd() should return null on empty list`() {
         val input = LinkedList<Int>()
         val expected = LinkedList<Int>()
-        val head = sut.removeNthNodeFromEnd(input.head, 1)
+        val head = solution.removeNthNodeFromEnd(input.head, 1)
         assertEquals(expected.head.toString(), head.toString())
     }
 }
