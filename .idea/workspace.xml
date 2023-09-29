@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model." />
+    <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model.&#10;&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696008660593</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model.&#10;&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;">
+      <option name="closed" value="true" />
+      <created>1696008681894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696008681894</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -291,7 +301,8 @@
     <MESSAGE value="Add README" />
     <MESSAGE value="Solve LeetCode#75: Sort colors problem" />
     <MESSAGE value="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model." />
+    <MESSAGE value="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model.&#10;&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model.&#10;&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
