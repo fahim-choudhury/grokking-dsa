@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model.&#10;&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/twoPointers/validPalindrome2/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/twoPointers/validPalindrome2/SolutionTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,62 +82,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="twoPointers.validPalindrome2" />
       <recent name="twoPointers.reverseWordsInAString" />
       <recent name="twoPointers.sortColors" />
       <recent name="twoPointers.removeNthNodeFromEndOfList" />
       <recent name="twoPointers.sumOfThreeValues" />
-      <recent name="twoPointers.validPalindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest (2)">
-    <configuration name="SolutionTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;twoPointers.sortColors.SolutionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;twoPointers.reverseWordsInAString.SolutionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.SolutionTest">
     <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -149,7 +103,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;twoPointers.removeNthNodeFromEndOfList.SolutionTest&quot;" />
+            <option value="&quot;twoPointers.validPalindrome2.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,7 +114,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest.sortColors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest.test with non-palindrome string with characters removed at both ends" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -173,7 +127,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;twoPointers.sortColors.SolutionTest.sortColors&quot;" />
+            <option value="&quot;twoPointers.validPalindrome2.SolutionTest.test with non-palindrome string with characters removed at both ends&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -184,7 +138,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'grokking-dsa.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest.test with non-palindrome string with one character removed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,6 +150,56 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;twoPointers.validPalindrome2.SolutionTest.test with non-palindrome string with one character removed&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest.testStringWithMixedCaseCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;twoPointers.validPalindrome2.SolutionTest.testStringWithMixedCaseCharacters&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest.testStringWithSpecialCharactersAndSpaces" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;twoPointers.validPalindrome2.SolutionTest.testStringWithSpecialCharactersAndSpaces&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -208,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'grokking-dsa.test'" />
-        <item itemvalue="Gradle.SolutionTest (2)" />
-        <item itemvalue="Gradle.SolutionTest.sortColors" />
-        <item itemvalue="Gradle.SolutionTest (1)" />
         <item itemvalue="Gradle.SolutionTest" />
+        <item itemvalue="Gradle.SolutionTest.testStringWithMixedCaseCharacters" />
+        <item itemvalue="Gradle.SolutionTest.testStringWithSpecialCharactersAndSpaces" />
+        <item itemvalue="Gradle.SolutionTest.test with non-palindrome string with one character removed" />
+        <item itemvalue="Gradle.SolutionTest.test with non-palindrome string with characters removed at both ends" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696008681894</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update README">
+      <option name="closed" value="true" />
+      <created>1696009241092</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696009241092</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -302,7 +314,8 @@
     <MESSAGE value="Solve LeetCode#75: Sort colors problem" />
     <MESSAGE value="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model." />
     <MESSAGE value="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model.&#10;&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model.&#10;&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;" />
+    <MESSAGE value="Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
