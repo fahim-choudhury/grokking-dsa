@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model.&#10;&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/twoPointers/validPalindrome2/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/twoPointers/validPalindrome2/SolutionTest.kt" afterDir="false" />
+    <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +48,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -61,35 +62,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/fahim/IdeaProjects/grokking-dsa&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/home/fahim/IdeaProjects/grokking-dsa",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="fastAndSlowPointers.happyNumber" />
       <recent name="twoPointers.validPalindrome2" />
       <recent name="twoPointers.reverseWordsInAString" />
       <recent name="twoPointers.sortColors" />
       <recent name="twoPointers.removeNthNodeFromEndOfList" />
-      <recent name="twoPointers.sumOfThreeValues" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest">
+  <component name="RunManager" selected="Gradle.SolutionTest (1)">
+    <configuration name="SolutionTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;fastAndSlowPointers.happyNumber.SolutionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,54 +130,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;twoPointers.validPalindrome2.SolutionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest.test with non-palindrome string with characters removed at both ends" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;twoPointers.validPalindrome2.SolutionTest.test with non-palindrome string with characters removed at both ends&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest.test with non-palindrome string with one character removed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;twoPointers.validPalindrome2.SolutionTest.test with non-palindrome string with one character removed&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -210,13 +188,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'grokking-dsa.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SolutionTest (1)" />
+        <item itemvalue="Gradle.Tests in 'grokking-dsa.test'" />
         <item itemvalue="Gradle.SolutionTest" />
         <item itemvalue="Gradle.SolutionTest.testStringWithMixedCaseCharacters" />
         <item itemvalue="Gradle.SolutionTest.testStringWithSpecialCharactersAndSpaces" />
-        <item itemvalue="Gradle.SolutionTest.test with non-palindrome string with one character removed" />
-        <item itemvalue="Gradle.SolutionTest.test with non-palindrome string with characters removed at both ends" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +285,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696009241092</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers.">
+      <option name="closed" value="true" />
+      <created>1696082580159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696082580159</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers.">
+      <option name="closed" value="true" />
+      <created>1696083146340</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696083146340</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -315,7 +331,9 @@
     <MESSAGE value="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model." />
     <MESSAGE value="Solve LeetCode#151: Reverse words in a string&#10;&#10;Minor refactoring done.&#10;&#10;Generated unit tests with Phind's generative AI model.&#10;&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;" />
     <MESSAGE value="Update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
+    <MESSAGE value="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers.&#10;Signed-off-by: Fahim Masud Choudhury &lt;tonmoy71@gmail.com&gt;" />
+    <MESSAGE value="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
