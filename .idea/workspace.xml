@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers.&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;">
+    <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Solve LeetCode#1: Two Sum">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fastAndSlowPointers/linkedListCycle/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/fastAndSlowPointers/linkedListCycle/SolutionTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -84,15 +86,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="fastAndSlowPointers.linkedListCycle" />
       <recent name="twoPointers.twoSum" />
       <recent name="fastAndSlowPointers.happyNumber" />
       <recent name="twoPointers.validPalindrome2" />
       <recent name="twoPointers.reverseWordsInAString" />
-      <recent name="twoPointers.sortColors" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest.test twoSum() with repeating values">
-    <configuration name="SolutionTest (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SolutionTest">
+    <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -105,7 +107,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;twoPointers.twoSum.SolutionTest&quot;" />
+            <option value="&quot;fastAndSlowPointers.linkedListCycle.SolutionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest.hasCycle() returns false for linked list with no cycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;fastAndSlowPointers.linkedListCycle.SolutionTest.hasCycle() returns false for linked list with no cycle&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest.hasCycle() returns false for linked list with single element without cycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;fastAndSlowPointers.linkedListCycle.SolutionTest.hasCycle() returns false for linked list with single element without cycle&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,61 +214,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest.twoSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;twoPointers.twoSum.SolutionTest.twoSum&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest.twoSum() with  " type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;twoPointers.twoSum.SolutionTest.twoSum() with  &quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SolutionTest" />
+        <item itemvalue="Gradle.SolutionTest.hasCycle() returns false for linked list with single element without cycle" />
+        <item itemvalue="Gradle.SolutionTest.hasCycle() returns false for linked list with no cycle" />
         <item itemvalue="Gradle.SolutionTest.test twoSum() with repeating values" />
         <item itemvalue="Gradle.SolutionTest.testTwoSum" />
-        <item itemvalue="Gradle.SolutionTest.twoSum() with  " />
-        <item itemvalue="Gradle.SolutionTest.twoSum" />
-        <item itemvalue="Gradle.SolutionTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +313,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696083517325</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Solve LeetCode#1: Two Sum">
+      <option name="closed" value="true" />
+      <created>1696186566188</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696186566188</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Solve LeetCode#1: Two Sum">
+      <option name="closed" value="true" />
+      <created>1696186586497</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696186586497</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -344,7 +362,9 @@
     <MESSAGE value="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers.&#10;Signed-off-by: Fahim Masud Choudhury &lt;tonmoy71@gmail.com&gt;" />
     <MESSAGE value="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers." />
     <MESSAGE value="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers.&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve LeetCode#202: Happy Number&#10;&#10;Topic: Fast and slow pointers.&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;" />
+    <MESSAGE value="Solve LeetCode#1: Two Sum&#10;&#10;Signed-off-by: Fahim Masud Choudhury &lt;fahim.m.choudhury@gmail.com&gt;" />
+    <MESSAGE value="Solve LeetCode#1: Two Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve LeetCode#1: Two Sum" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
