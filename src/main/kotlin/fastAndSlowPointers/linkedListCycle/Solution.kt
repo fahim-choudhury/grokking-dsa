@@ -3,8 +3,8 @@ package fastAndSlowPointers.linkedListCycle
 import dataStructures.linkedList.Node
 
 /**
- * LeetCode 141. Linked List Cycle
- *https://leetcode.com/problems/linked-list-cycle/description/
+ * LeetCode: 141. Linked List Cycle
+ * https://leetcode.com/problems/linked-list-cycle/description/
  */
 class Solution {
     fun hasCycle(head: Node<Int>?): Boolean {
