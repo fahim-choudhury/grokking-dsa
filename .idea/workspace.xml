@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62d2aa2c-7cf9-4d26-b43b-24b21d003b2a" name="Changes" comment="Solve LeetCode#141: Linked List Cycle">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fastAndSlowPointers/middleOfLinkedList/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/repeatedDnaSequences/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/slidingWindow/repeatedDnaSequences/SolutionTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/bestTimeToBuyAndSellStock/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/slidingWindow/bestTimeToBuyAndSellStock/SolutionTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +85,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="slidingWindow.bestTimeToBuyAndSellStock" />
       <recent name="slidingWindow.repeatedDnaSequences" />
       <recent name="fastAndSlowPointers.linkedListCycle" />
       <recent name="twoPointers.twoSum" />
       <recent name="fastAndSlowPointers.happyNumber" />
-      <recent name="twoPointers.validPalindrome2" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest (1)">
+  <component name="RunManager" selected="Gradle.SolutionTest">
     <configuration name="SolutionTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -119,7 +117,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest.findRepeatedDnaSequences() returns a single sequence" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +130,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;slidingWindow.repeatedDnaSequences.SolutionTest.findRepeatedDnaSequences() returns a single sequence&quot;" />
+            <option value="&quot;slidingWindow.bestTimeToBuyAndSellStock.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,7 +165,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest.findRepeatedDnaSequences() when no sequence is present returns an empty list" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest.maxProfit() should return profit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -180,7 +178,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;slidingWindow.repeatedDnaSequences.SolutionTest.findRepeatedDnaSequences() when no sequence is present returns an empty list&quot;" />
+            <option value="&quot;slidingWindow.bestTimeToBuyAndSellStock.SolutionTest.maxProfit() should return profit&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,7 +189,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest.findRepeatedDnaSequences() when string is equal or shorter than sequence returns an empty list" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest.maxProfit() should return zero profit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -204,7 +202,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;slidingWindow.repeatedDnaSequences.SolutionTest.findRepeatedDnaSequences() when string is equal or shorter than sequence returns an empty list&quot;" />
+            <option value="&quot;slidingWindow.bestTimeToBuyAndSellStock.SolutionTest.maxProfit() should return zero profit&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -217,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SolutionTest" />
+        <item itemvalue="Gradle.SolutionTest.maxProfit() should return zero profit" />
+        <item itemvalue="Gradle.SolutionTest.maxProfit() should return profit" />
         <item itemvalue="Gradle.SolutionTest (1)" />
         <item itemvalue="Gradle.SolutionTest.findRepeatedDnaSequences() returns multiple sequences" />
-        <item itemvalue="Gradle.SolutionTest.findRepeatedDnaSequences() when string is equal or shorter than sequence returns an empty list" />
-        <item itemvalue="Gradle.SolutionTest.findRepeatedDnaSequences() when no sequence is present returns an empty list" />
-        <item itemvalue="Gradle.SolutionTest.findRepeatedDnaSequences() returns a single sequence" />
       </list>
     </recent_temporary>
   </component>
@@ -380,20 +378,6 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/slidingWindow/repeatedDnaSequences/Solution.kt</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/slidingWindow/repeatedDnaSequences/Solution.kt</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
         <watch expression="s.lastIndex" language="kotlin" />
